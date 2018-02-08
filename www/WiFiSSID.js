@@ -1,9 +1,7 @@
-var exec = require('cordova/exec');
-
-var WiFiSSID = function() {};
-
-WiFiSSID.getSSID = function(callback) {
-  exec(callback, callback, "WiFiSSID", "getSSID", []);
+var WiFiSSID = {
+    getSSID: function(callback) {
+        cordova.exec(callback, callback, "WiFiSSID", "getSSID", []);
+    }
 };
 
 module.exports = WiFiSSID;
