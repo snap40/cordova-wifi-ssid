@@ -1,11 +1,19 @@
-var argscheck = require('cordova/argscheck'),
-  utils = require('cordova/utils'),
-  exec = require('cordova/exec');
+exec = require("cordova/exec");
 
-var WiFiSSID = function() {};
+const PLUGIN_CLASS_NAME = "WiFiSSID";
+const PLUGIN_METHOD_NAME = "getSSID";
 
-WiFiSSID.getSSID = function(callback) {
-  exec(callback, callback, "WiFiSSID", "getSSID", []);
+var WiFiSSID = {
+    getSSID: function(successCallback, errorCallback) {
+
+        cordova.exec(
+            successCallback,
+            errorCallback,
+            PLUGIN_CLASS_NAME,
+            PLUGIN_METHOD_NAME
+        );
+        exec(successCallback, errorCallback, PLUGIN_CLASS_NAME, PLUGIN_METHOD_NAME, []);
+    }
 };
 
 module.exports = WiFiSSID;
