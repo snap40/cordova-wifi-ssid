@@ -1,10 +1,10 @@
 {
-  "name": "com.snap40.wifiinfo",
+  "name": "@snap40/cordova-plugin-wifi-ssid",
   "author": "snap40",
   "version": "0.0.1",
   "description": "Wifi info integration",
   "cordova": {
-    "id": "com.snap40.wifiinfo",
+    "id": "cordova-plugin-wifi-ssid",
     "platforms": [
       "ios"
     ]

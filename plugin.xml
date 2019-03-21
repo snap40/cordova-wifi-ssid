@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.snap40.wifiinfo" version="0.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-wifi-ssid" version="0.0.1">
   <name>WiFi Info Integration</name>
   <description> Get WiFi Info </description>
-  <license>MIT</license>
+  <repo>git@github.com:snap40/ui-cordova-wifi-ssid.git</repo>
   <engines>
     <engine name="cordova" version=">=3.0.0" />
   </engines>
