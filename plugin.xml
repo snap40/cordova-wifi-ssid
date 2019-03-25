@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-wifi-ssid" version="0.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-wifi-ssid" version="0.0.2">
   <name>WiFi Info Integration</name>
   <description> Get WiFi Info </description>
   <repo>git@github.com:snap40/ui-cordova-wifi-ssid.git</repo>
